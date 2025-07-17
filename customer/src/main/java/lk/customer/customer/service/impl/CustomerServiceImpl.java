@@ -70,7 +70,7 @@ public class CustomerServiceImpl implements CustomerService {
 
     @Override
     public List<Customer> getAll() {
-        final List<Customer> all = customerRepo.findAll();
+         List<Customer> all = customerRepo.findAll();
         return all;
     }
 }
